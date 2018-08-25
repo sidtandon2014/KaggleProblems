@@ -1,0 +1,463 @@
+           id cat1 cat2 cat3 cat4 cat5 cat6 cat7 cat8 cat9 cat10 cat11 cat12 cat13 cat14 cat15 cat16 cat17 cat18 cat19 cat20 cat21 cat22 cat23 cat24
+1      167755    A    A    A    B    A    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+2      262556    A    B    A    A    A    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+3       47526    A    B    A    A    A    A    A    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A
+4      539471    B    B    A    B    A    A    A    A    B     A     B     A     A     A     A     A     A     A     A     A     A     A     B     B
+5      254927    A    B    A    A    B    A    B    A    B     B     A     B     B     A     A     A     A     A     A     A     A     A     A     A
+6      392327    A    A    A    B    A    A    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+7      353451    A    B    A    A    A    A    A    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+8      377272    A    B    A    A    A    A    A    B    B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+9      495045    A    A    A    A    B    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+10      41419    A    A    A    A    A    B    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+11     370797    A    B    A    A    B    A    A    B    B     B     A     B     B     A     A     A     A     A     A     A     A     A     A     A
+12     129560    A    B    A    B    B    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+13     200562    A    A    A    B    A    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+14     167093    A    B    A    B    B    A    A    A    A     A     B     A     A     A     A     A     A     A     A     A     A     A     B     A
+15     549904    A    B    A    B    A    A    A    A    B     B     B     B     A     A     A     A     A     A     A     A     A     A     B     A
+16     349361    A    B    A    B    B    A    B    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     B     A
+17     565699    A    A    A    A    B    B    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+18     370386    A    A    A    B    A    A    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+19     476535    A    B    B    A    B    A    B    A    B     B     B     B     B     A     A     B     A     A     A     A     A     A     A     A
+20     212461    A    B    A    B    A    A    A    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+21     313045    A    B    A    B    B    A    B    A    B     B     B     B     B     B     A     A     A     A     A     A     A     A     B     A
+22     245173    A    A    A    A    B    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+23      10322    A    B    B    B    B    A    A    A    B     B     B     B     B     A     A     B     A     A     A     A     A     A     B     A
+24     400973    A    A    B    A    A    B    A    B    A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A
+25     173764    A    B    A    A    A    A    A    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+26     149613    A    A    A    A    A    B    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+27     304154    A    B    B    B    A    A    B    B    B     B     B     B     A     A     A     B     B     A     A     A     A     A     B     B
+28     244126    A    B    A    A    B    B    B    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+29     305784    A    A    A    B    A    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+30     292102    B    B    A    B    B    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+31      68247    B    A    B    A    B    A    A    B    A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A
+32     446805    A    B    A    B    B    A    B    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     B     A
+33     161925    A    B    A    B    B    A    B    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     B     A
+34     240762    B    B    A    B    B    A    B    A    B     B     B     B     B     B     A     A     A     A     A     A     A     A     B     A
+35     135169    A    B    B    A    B    A    B    B    B     B     A     B     B     A     A     B     B     A     A     A     A     A     A     A
+36     289039    A    B    A    B    A    B    A    A    B     B     B     A     B     A     A     A     A     A     A     A     A     A     A     A
+37     182990    A    B    B    B    B    A    A    A    B     B     B     A     B     A     A     B     A     A     A     A     A     A     B     A
+38     360064    A    B    A    A    A    A    B    B    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+39     388694    A    A    B    B    A    B    A    A    A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A
+40     256071    A    B    A    A    A    A    A    A    B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+41     327343    A    B    A    A    B    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+42     309469    A    B    A    A    A    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+43     224698    A    B    B    A    A    A    A    A    B     B     B     B     B     A     A     B     A     A     A     A     A     A     A     A
+44      33799    A    A    B    A    A    B    A    A    A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A
+45     313673    A    B    A    B    A    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+46      77925    A    B    A    A    A    A    A    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+47     486592    A    B    B    B    A    A    B    A    B     A     A     B     A     B     A     A     B     A     A     A     A     A     B     A
+48     303179    A    B    B    A    A    B    A    A    B     B     B     B     B     A     A     B     A     A     A     A     A     A     A     A
+49     103816    A    B    A    A    B    B    A    A    B     B     A     B     B     A     A     A     A     A     A     A     A     A     A     A
+50     540131    A    B    A    B    A    A    A    A    B     A     B     B     A     A     A     A     A     A     A     A     A     A     B     B
+51     109822    A    A    A    B    A    B    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+52     388975    A    B    A    B    B    A    B    A    B     B     A     A     B     A     A     A     A     A     A     A     A     A     B     A
+53      16680    A    B    A    B    B    A    A    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     B     A
+54      44434    A    A    B    A    A    A    A    B    A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A
+55     558740    A    B    A    A    B    A    A    A    B     B     A     B     B     A     A     A     A     A     A     A     A     A     A     A
+56     190825    A    B    B    B    B    B    B    A    B     B     B     B     B     B     A     B     B     A     A     A     A     A     B     A
+57     320085    A    B    A    A    A    A    A    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+58     158681    A    A    A    A    B    A    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+59     164850    A    B    A    A    B    A    B    A    B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+60     264810    B    B    A    A    A    A    A    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A
+61       6960    A    B    B    B    A    A    B    B    B     B     B     A     A     A     A     B     A     A     A     A     A     A     B     B
+62     380445    A    B    A    B    B    A    A    A    B     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A
+63     254035    A    B    A    A    A    A    B    A    B     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+64      54601    A    A    A    A    B    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+65     421973    A    A    A    A    B    A    A    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+66     424663    A    A    A    A    B    B    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+67     329207    A    A    A    A    B    A    B    A    A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+68      33893    A    B    A    A    B    A    B    A    B     B     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+69     408257    A    B    A    B    A    A    A    A    B     A     B     A     A     A     A     A     A     A     A     A     A     A     B     B
+70     323220    A    B    A    B    A    A    B    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     B     B
+71       2838    A    B    A    A    A    A    A    A    B     B     B     B     A     A     A     A     A     A     A     A     A     A     A     A
+72      29922    A    B    A    A    A    A    B    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A
+73     298780    A    B    A    B    A    A    A    A    B     A     B     B     B     A     A     A     A     A     A     A     A     A     B     A
+74     582136    A    B    B    B    B    A    A    A    B     B     B     B     A     A     A     A     B     A     A     A     A     A     B     A
+75     137453    A    B    A    A    B    A    B    A    B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A
+76     167803    A    B    B    B    B    A    B    A    B     B     B     B     B     A     A     B     A     A     A     A     A     A     B     A
+       cat25 cat26 cat27 cat28 cat29 cat30 cat31 cat32 cat33 cat34 cat35 cat36 cat37 cat38 cat39 cat40 cat41 cat42 cat43 cat44 cat45 cat46 cat47 cat48
+1          B     B     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+2          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+3          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+4          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+5          A     A     A     A     A     A     A     A     A     A     A     B     B     B     A     B     B     A     A     B     A     A     A     A
+6          B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+7          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+8          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+9          A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     B     A     A     A     A     A     A     A     A
+10         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+11         A     A     A     A     A     A     A     A     A     A     A     B     B     B     B     A     A     A     A     B     A     A     A     A
+12         A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     B     B     A     A     A     B     A     A     A
+13         A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+14         B     B     A     A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     B     A     A     A     A
+15         B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+16         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+17         A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     B     A     A     A     A     A
+18         B     B     B     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+19         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     B     A     A     A     B     A     A     A     A
+20         A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+21         A     A     A     A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+22         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+23         A     A     A     B     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+24         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+25         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+26         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+27         B     A     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+28         A     A     A     A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+29         B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+30         B     A     A     A     A     A     A     A     A     A     A     A     B     B     A     A     A     A     B     A     A     A     A     A
+31         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     B     B     A     A     A     A     A     A     A
+32         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+33         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+34         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+35         A     A     A     A     A     A     A     A     A     A     A     B     A     B     B     B     A     A     A     B     A     A     A     A
+36         A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+37         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+38         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+39         A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+40         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+41         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     B     A     A     A     A     A     A     A     A
+42         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+43         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+44         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+45         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+46         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+47         A     A     A     B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+48         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+49         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+50         B     B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+51         B     B     B     B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+52         B     A     B     A     A     A     B     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+53         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+54         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+55         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     B     B     A     A     A     A     A     A     A
+56         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+57         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+58         A     A     A     A     A     A     A     A     A     A     A     A     B     B     B     A     A     A     B     B     B     B     B     A
+59         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     B     A     A     A
+60         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+61         B     A     B     B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+62         B     A     A     A     A     A     A     A     A     A     A     B     A     B     A     B     B     A     A     A     A     A     A     A
+63         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+64         A     A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     B     A     A     A     A
+65         A     A     A     A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A
+66         A     A     A     A     A     A     A     A     A     A     A     A     B     B     A     A     A     A     B     B     B     A     B     A
+67         A     A     A     A     A     A     A     A     A     A     A     B     A     B     A     B     B     A     A     A     A     A     A     A
+68         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+69         B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+70         B     B     B     B     B     A     A     A     B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+71         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+72         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+73         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+74         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+75         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+76         A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A
+       cat49 cat50 cat51 cat52 cat53 cat54 cat55 cat56 cat57 cat58 cat59 cat60 cat61 cat62 cat63 cat64 cat65 cat66 cat67 cat68 cat69 cat70 cat71 cat72
+1          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+2          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+3          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+4          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+5          A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+6          A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+7          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+8          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A
+9          A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+10         A     B     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+11         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     B     B
+12         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+13         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+14         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+15         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+16         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+17         A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+18         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+19         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+20         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+21         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+22         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+23         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+24         B     B     B     B     B     B     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     B
+25         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+26         B     B     A     B     B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+27         A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     B     A     A     A     A     A     A     B
+28         A     B     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+29         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+30         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+31         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     B     A
+32         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+33         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+34         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+35         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     B     A     A     B     A     A     B     A
+36         B     B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+37         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+38         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A
+39         B     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+40         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+41         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+42         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+43         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+44         A     B     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+45         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+46         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+47         A     A     A     A     A     A     A     A     B     A     A     A     B     A     A     A     A     A     A     A     A     A     B     B
+48         A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A
+49         A     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+50         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+51         A     A     A     B     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+52         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+53         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+54         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     A     A     A     A     A     A
+55         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+56         A     B     A     A     B     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+57         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+58         A     A     A     A     A     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A     B
+59         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+60         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+61         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+62         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+63         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+64         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+65         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+66         A     B     A     B     B     A     A     A     B     A     B     A     A     A     A     A     A     A     A     A     A     A     A     B
+67         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+68         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+69         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+70         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+71         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+72         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+73         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B
+74         A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+75         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     A     A
+76         A     A     A     A     A     A     A     A     B     A     A     A     A     A     A     A     A     A     A     A     A     A     B     B
+       cat73 cat74 cat75 cat76 cat77 cat78 cat79 cat80 cat81 cat82 cat83 cat84 cat85 cat86 cat87 cat88 cat89 cat90 cat91 cat92 cat93 cat94 cat95 cat96
+1          A     A     A     A     D     B     D     B     C     A     B     C     B     A     B     A     A     A     A     A     C     B     A     E
+2          A     A     A     A     D     B     C     C     C     A     A     C     B     A     C     A     A     A     A     A     C     B     C     E
+3          A     A     A     A     D     B     D     B     D     B     B     A     B     A     C     A     A     A     G     H     D     D     C     E
+4          A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     A     B     H     D     D     D     E
+5          A     A     A     A     D     B     D     B     B     B     B     D     D     B     B     A     B     A     B     H     D     D     D     E
+6          A     A     A     A     D     B     D     B     C     A     A     A     B     B     C     A     B     A     A     A     C     D     C     E
+7          A     A     A     A     D     B     B     D     D     B     B     A     B     A     B     A     A     A     B     H     D     B     C     E
+8          A     A     A     A     D     B     D     B     D     B     B     C     B     A     D     A     A     A     B     A     D     D     A     E
+9          A     A     A     A     D     B     D     B     D     A     A     C     B     B     D     A     A     A     A     A     C     D     D     E
+10         B     A     A     A     D     B     B     D     D     B     B     C     B     A     B     A     A     A     A     A     D     D     C     E
+11         A     A     A     A     D     B     D     B     D     B     B     C     B     B     D     A     A     A     B     H     D     D     C     E
+12         A     A     A     A     D     B     D     B     B     B     B     C     B     B     B     A     A     A     B     H     D     D     D     E
+13         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     A     B     H     D     D     A     E
+14         A     A     A     A     D     B     D     B     D     B     B     C     B     D     B     A     A     A     B     H     D     D     C     E
+15         A     A     A     A     D     B     D     B     D     B     B     C     B     A     D     A     A     A     A     A     D     D     C     E
+16         A     A     A     A     D     B     D     B     B     B     B     C     B     D     C     A     B     A     A     A     D     D     C     E
+17         A     A     A     A     D     B     D     B     D     B     B     C     B     D     B     A     A     A     A     A     D     D     C     E
+18         A     A     A     B     D     B     D     B     B     B     B     C     B     B     B     A     B     A     A     A     D     D     D     E
+19         A     A     A     A     D     B     D     B     D     B     A     C     B     D     C     A     B     B     B     H     D     D     C     E
+20         A     A     A     A     D     B     D     B     D     B     B     C     B     D     C     A     A     A     B     H     D     D     C     E
+21         A     A     A     B     D     B     D     B     B     B     B     C     B     B     D     A     B     A     A     A     D     D     C     E
+22         A     A     A     A     D     B     D     B     C     B     C     B     B     D     C     A     A     A     A     A     C     D     C     E
+23         A     A     A     A     D     B     D     B     D     B     C     C     B     B     D     A     A     B     A     A     D     D     C     E
+24         A     A     A     B     D     B     B     B     D     B     B     C     B     B     B     A     A     B     C     A     D     D     A     E
+25         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     A     B     H     D     D     D     E
+26         B     A     B     A     D     B     D     B     D     A     B     C     B     B     B     A     A     A     A     A     C     D     D     E
+27         A     A     A     A     D     B     D     B     D     B     B     C     B     B     D     A     C     C     A     A     D     D     A     E
+28         A     A     A     A     D     B     D     B     B     B     B     C     B     B     B     A     B     A     D     A     D     D     D     E
+29         A     A     A     A     D     B     D     B     B     B     A     C     B     D     B     A     A     A     A     A     D     D     C     E
+30         A     A     A     A     D     B     B     D     D     B     B     C     B     A     B     A     A     A     A     A     D     B     C     E
+31         A     A     A     A     D     B     D     B     B     A     B     C     B     B     D     A     A     B     B     H     C     D     D     E
+32         A     A     A     A     D     B     B     B     D     B     B     C     B     D     C     D     B     A     B     H     D     D     C     B
+33         A     A     A     A     D     B     B     B     D     B     B     C     B     B     B     A     B     A     A     A     D     D     A     E
+34         A     A     A     B     D     B     B     B     D     B     B     C     B     B     D     A     B     A     B     H     D     D     C     E
+35         A     A     A     A     D     B     B     B     B     B     B     C     B     D     D     A     B     C     B     H     D     D     C     B
+36         A     A     A     A     D     B     D     D     D     B     B     C     B     B     B     A     A     A     B     H     D     D     C     E
+37         A     A     A     A     D     B     D     B     D     B     B     C     B     B     D     A     A     B     A     A     D     D     D     E
+38         A     A     A     A     D     B     D     B     D     A     A     C     B     D     D     A     B     A     B     H     C     D     C     E
+39         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     B     B     H     C     D     A     E
+40         A     A     A     A     D     B     D     C     D     B     B     C     B     D     B     D     A     A     B     H     D     D     C     B
+41         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     A     B     H     C     D     D     E
+42         A     A     A     A     D     B     D     B     C     B     C     A     B     D     C     A     A     A     C     A     D     D     C     E
+43         A     A     A     A     D     B     D     B     D     B     B     A     B     B     D     A     A     B     C     A     D     D     C     E
+44         A     A     A     A     D     B     B     D     D     B     B     C     B     B     B     A     A     B     A     A     D     D     D     E
+45         A     A     A     A     D     B     B     D     D     B     B     C     B     A     B     A     A     A     B     H     D     D     A     E
+46         A     A     A     A     D     B     D     B     C     B     C     A     B     D     C     A     A     A     C     A     D     D     C     E
+47         A     A     A     B     D     B     D     B     C     B     B     C     B     B     D     A     C     B     B     H     D     D     C     E
+48         A     A     A     A     D     B     D     B     D     B     B     C     B     D     D     A     A     B     B     B     D     D     C     E
+49         A     A     B     A     D     B     D     B     D     C     B     C     B     A     B     A     A     A     C     A     E     D     A     E
+50         A     A     A     A     D     B     D     B     B     B     B     C     B     B     D     A     A     A     A     A     D     D     C     E
+51         A     A     A     A     D     B     D     B     C     A     B     C     B     D     D     A     B     A     B     H     C     D     C     E
+52         A     A     A     A     D     D     D     D     B     B     B     C     B     D     C     A     B     A     B     H     D     D     C     E
+53         A     A     A     A     D     B     D     B     C     B     B     A     C     B     C     A     A     A     C     A     D     D     C     E
+54         A     A     A     A     D     B     D     B     D     B     D     C     B     D     D     A     A     B     B     H     D     D     C     E
+55         A     A     A     A     D     B     D     B     D     B     B     C     B     B     D     A     A     A     B     H     D     D     D     E
+56         B     A     A     B     D     B     D     B     D     B     B     C     B     D     D     A     B     C     C     A     D     D     C     E
+57         A     A     A     A     D     C     D     B     C     B     B     D     C     B     C     A     A     A     C     A     D     D     D     E
+58         A     A     A     B     D     B     D     B     B     B     B     C     B     B     B     A     C     A     A     A     D     D     D     E
+59         A     A     A     A     D     C     D     B     C     C     B     A     C     D     C     A     B     A     B     H     D     D     C     E
+60         A     A     A     A     D     B     D     B     C     B     B     A     C     B     C     A     A     A     G     H     D     D     D     E
+61         A     A     A     A     D     B     D     B     B     B     B     C     B     B     D     A     B     B     A     A     D     D     A     E
+62         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     A     A     B     H     D     D     C     E
+63         A     A     A     A     D     B     D     B     D     B     B     C     B     D     D     A     B     A     A     A     D     D     C     G
+64         A     A     A     A     D     B     B     D     D     A     B     C     B     D     B     A     A     A     A     A     C     B     C     E
+65         A     A     A     A     D     B     A     C     C     A     A     C     B     D     C     A     A     A     A     A     C     D     C     D
+66         A     A     A     B     D     B     D     B     B     B     B     C     B     D     B     A     C     A     A     A     D     D     C     E
+67         A     A     A     A     D     B     D     B     D     B     B     C     B     B     B     A     B     A     A     A     D     D     D     E
+68         A     A     A     B     D     B     D     B     D     B     B     C     B     D     B     A     B     A     A     A     C     D     C     E
+69         A     A     A     A     D     B     D     B     B     B     B     C     B     D     D     A     A     A     D     A     D     D     C     E
+70         A     A     A     B     D     B     D     B     B     B     A     C     B     B     B     A     B     A     A     A     D     D     D     E
+71         A     A     A     A     D     B     D     B     D     B     B     C     B     B     D     A     A     A     C     A     D     D     E     E
+72         A     A     A     A     D     B     B     B     B     A     B     C     B     D     D     A     B     A     A     A     C     D     C     E
+73         A     A     A     A     D     B     D     B     C     B     B     C     B     D     D     A     A     A     A     A     D     D     C     G
+74         A     A     A     A     D     B     D     B     D     B     B     C     D     D     D     D     A     B     A     A     D     B     C     B
+75         A     A     A     A     D     B     D     B     D     B     B     C     B     D     D     A     B     A     A     A     D     D     C     E
+76         A     A     A     A     D     B     D     B     B     B     B     C     B     B     D     A     B     B     A     A     D     D     C     E
+       cat97 cat98 cat99 cat100 cat101 cat102 cat103 cat104 cat105 cat106 cat107 cat108 cat109 cat110 cat111 cat112 cat113 cat114 cat115 cat116    cont1
+1          C     A     E      O      A      A      A      I  Other      F      D      H     BI     EL      G      J  Other      A  Other     KP 0.316554
+2          C     A     C      L      C      A      A      I  Other      F      D      H     BI     EL      A      J  Other      A  Other     KP 0.316554
+3          G     A     C      M      Q      A      A      L      M      C      E      D     BI     CL      A      Q  Other      A      H  Other 0.474338
+4          G     A     P      F      F      A      A      L      J      C      E      D     BI     EG      E      E  Other      A      J  Other 0.739914
+5          G     A     P      F      M      A      G      K      H      D      E      D     BI     CL      A     AH     AT      A      J     LV 0.712250
+6          A     A     D      G      A      A      A      K      K      D      E      D     BI     CL      E      S     AT      A      I  Other 0.637419
+7          A     A     C      F      J      A      A      K      M      E      E      H     BI     BT      A     AN  Other      A      F  Other 0.335667
+8          A     A     E      O      G      B      A      I      K      E      E      H     BI     EB      A      E  Other      A      G     KP 0.256275
+9          G     A     P      N      A      A      C      M      J      C      E      D     BI     CL      A      J  Other      A      K  Other 0.779042
+10         C     A     C      I      A      A      A      K  Other      F      C      H     BI      W      A      J     BD      J  Other  Other 0.368727
+11         A     A     D      F      M      B      F      I      I      D      E      D     BI     CL      A     AS     AT      A      I  Other 0.637419
+12         G     A     P      F      C      A      D      K      H      D      E      D     BI     CL      C     AF     AT      A      J     LV 0.712250
+13         G     A     F      F      A      A      A      N      H      C      D      D     BI     CL      C     AF  Other      A      J  Other 0.779042
+14         C     D     T      F      D      A      D      I      H      E      I      E     BI     CL      G     AH      H      A      L     KT 0.516355
+15         A     A     C      H      M      A      A      L  Other      E      D      D     BI     CL      E      E     AT      A      F     MK 0.382325
+16         A     D     T      G      Q      A      B      I      F      E      L      E     BI     CL      C     AN     AN      A      Q     KW 0.475784
+17         A     D     T      O      A      A      C      I      F      E      J      E     BI     CL      A      E     AT      C      P     LD 0.637419
+18         G     A     P      H      A      A      A      K      I      E      E      D     BI     EG      M      E     AT      A      J     LV 0.694098
+19         C     D     T      F      O      A      D      I      H      E      I      E     BI     CL      A     AT      H      A      L     KT 0.517803
+20         A     D     T      F      J      A      A      L      G      E      J      E     BI     CL      C      U      J      A      O     MJ 0.662480
+21         A     A     P      G      R      A      C      J      J      E      E      H     BI     CL      C      J     BD      A      H     LF 0.569550
+22         G     D     T      G      A      A      B      L      G      E      I      E     BI     CL      A     AD      J      A      P     MJ 0.864996
+23         A     A     D      G      Q      A      C      L      L      E      D      H     BI     EL      E      J  Other      A      G  Other 0.421331
+24         A     A     F      M      A      B      A      L      L      E      E      H     BI     BT      A      J  Other      V      G  Other 0.422746
+25         G     A     P      F      I      A      A      M      J      C      E      D     BI     CL      A     AH  Other      A      K  Other 0.838708
+26         A     A     P      K      A      A      A      K      J      E      E      D     BI     EG      A     AF     AT      U      I     LV 0.530819
+27         C     A     F      O      M      B      A      G      I      E      F      D     BI     BT      O      J     AG      A      I     HV 0.391956
+28         A     A     P      G      D      A      C      F      H      F      F      D     BI     CL      A     AW      H      E      K     GX 0.503312
+29         C     D     T      G      A      A      A      G      G      F      J      E     BI     CL      E      E      A      A      M     HV 0.510560
+30         A     A     C      O      D      A      D      M  Other      D  Other      H     BI     EL      C      K  Other      A  Other  Other 0.367378
+31         C     A     P      F      A      C      D      F      I      F      F      D     BI     CL      A     AS      F      A      J     GW 0.425579
+32         G     C     T      F      I      A      B      M      F      D      H      G     BI     EB      C     AN      Y      A      R     JU 0.962437
+33         A     A     F      G      Q      A      B      J      K      D      E      D     BI     CL      C     AV      H      A      I  Other 0.513457
+34         A     A     D      F      S      A      B      H      K      E      D      H     BI     EE      C      U     AI      A      G     KN 0.467114
+35         G     C     T      F      L      E      F      M      F      D      H      G     BI     EB      A     AS      Y      A      Q     JU 0.962437
+36         C     A     D      F      L      A      A      H      I      E      F      D     BI     CL      C     AS      F      I      I     KL 0.380957
+37         A     A     P      H      M      A      B      K      J      E      E      D     BI     CL      C      K     AT      A      I     LV 0.530819
+38         C     D     T      F      C      C      A      G      F      G      J      K     BI     BS      A     AN     BM      A      N     HK 0.464228
+39         C     A     F      F      A      A      A      H      L      G      F      H     BI     CL      C     AR     BD      J      H     HX 0.292010
+40         G     C     T      F      F      A      A      M      E      D      G      G     BI     CO      A      J      S      A      Q     GB 0.965651
+41         A     A     P      F      C      A      C      F      H      F      F      D     BI     CL      A     AS      F      A      J     GW 0.543794
+42         C     D     T      G      D      A      A      F      F      G      J      E     BI     CS      A      N      H      A      N     GS 0.346090
+43         A     A     D      M      O      A      A      I      I      D      E      D     BI     CL      A     AV     AT      A      I  Other 0.637419
+44         G     A     P      K      A      A      A      L      J      C      E      D     BI     CL      A     AH  Other      J      J  Other 0.739914
+45         C     A     E      F      D      A      A      K      L      D      E      H     BI     CL      C      N     AT      A      H     LR 0.327952
+46         A     D     T      M      J      A      A      K      G      E      J      E     BI     CL      A      E     AT      A      P     LV 0.637419
+47         C     A     D      F      I      A      A      K      N      F      E      H     BI     BT      G     AR      X      A      I     LT 0.459904
+48         C     D     T      O      O      A      A      F      F      E      I      E     BI     CL      A     AF      H      C      L     GX 0.516355
+49         C     A     E      M      M      A      B      I      I      E      E      H     BI     CS      A     AP      J      J      G     KW 0.317810
+50         C     A     D      G      J      A      A      H      I      E      F      D     BI     CL      Q      E      F      A      I     KL 0.375501
+51         A     D     T      F      A      A      A      L      H      F      K      K     BI     CL      M     AS     AD      C      P     MJ 0.655966
+52         A     D     T      F      J      A      C      L      G      E      K      K     BI     EG      I      J     AD      A      P     MJ 0.655966
+53         C     A     D      M      O      A      B      G      J      H      E      H     BI  Other      C      J     BD      A      H     HJ 0.278999
+54         C     D     T      F      A      D      A      L      I      F      J      K     BI     CO      A     AS     AJ      A      O     MI 0.438385
+55         C     A     P      F      M      A      D      H      K      F      G      D     BI     CL      A      E      H      A      K     KJ 0.352681
+56         C     D     T      M      R      A      B      G      F      G      K      K     BI     CS      C      C     AE      F      N     HK 0.507661
+57         C     A     P      O      C      A      A      F      F      F      G      D     BI     CL      A     AF     AT      A      K     GU 0.357995
+58         A     A     P      H      A      A      I      G      G      F      F      D     BI     CL      A      K     AT      A      J     HN 0.512009
+59         A     D     T      F      C      A      C      I      F      E      J      E     BI     CL      A     AH     AT      A      P     LD 0.637419
+60         A     A     P      J      Q      A      A      F      F      F      F      D     BI     CL      A      N      H      A      K     GS 0.503312
+61         C     A     F      G      J      B      A      H      L      G      F      H     BI     EB      M      A     BD      A      H     HX 0.292010
+62         C     A     D      F      G      A      E      F      G      G      F      D     BI     CS      C      E      H      A      J     GS 0.372785
+63         C     D     T      L      J      A      A      G      F      F      J      E     BI     CL      A      N     AN      A      N     IU 0.455585
+64         C     D     T      H      A      A      C      H      E      H      M      K     BI     EB      A      E     AJ      A      P     HX 0.266349
+65         A     D     T      G      A      A      C      K      F      E      K      K     BI     EG      A      N     AD      A      P     LN 0.655966
+66         C     D     T      G      A      A      G      G      F      F      J      E     BI     CL      A     AH     AN      N      N     HK 0.455585
+67         A     A     P      O      A      A      E      F      H      G      F      D     BI     CL      A     AS      H      A      K     GX 0.503312
+68         C     D     T      G      M      A      B      J      G      E      J      E     BI     CL      A     AF      H      A      N     LF 0.503312
+69         A     D     T      M      F      A      A      J      F      D      L      E     BI     BT      I      E     AM      A      Q     LI 0.488816
+70         A     A     P      G      O      A      A      G      G      F      F      D     BI     CL      S     AN     AT      A      J     HN 0.512009
+71         E     A     S      L      L      A      A      E      J      H      H      I     BI     CL      A      E     BJ      A      K     EI 0.270907
+72         A     D     T      J      O      A      A      I      E      F      L      E     BI     CL      A     AL     AN      A      R     LB 0.461344
+73         C     D     T      M      M      A      A      G      F      F      J      E     BI     CL      C      U     AN      A      N     IU 0.455585
+74         G     C     T      O      L      A      B      M      F      E      H      G     BI     CS      C      F      L      A      P     KA 0.907758
+75         C     D     T      H      Q      A      B      G      H      F      I      E     BI     BT      A     AT     AG      A      M     HK 0.378225
+76         C     A     D      L      Q      A      B      F      H      F      F      D     BI     EG      C      E      H      A      J     GX 0.362003
+          cont2    cont3    cont4    cont5    cont6    cont7   cont8   cont9  cont10    cont11   cont13   cont14      loss
+1      0.620805 0.944251 0.259793 0.281143 0.398017 1.000000 0.38885 0.30859 0.66572 0.9881145 0.129356 0.391758 121012.25
+2      0.555782 0.944251 0.259793 0.281143 0.355523 1.000000 0.38318 0.30859 0.66572 0.9881145 0.117810 0.382908 106863.00
+3      0.737068 0.944251 0.201989 0.281143 0.810769 1.000000 0.33372 0.41879 0.65072 0.9981420 0.241098 0.646015  85923.56
+4      0.620805 0.893620 0.201989 0.281143 0.886905 1.000000 0.31796 0.67504 0.65072 0.9946340 0.348267 0.801668  79623.52
+5      0.737068 0.527991 0.483397 0.560299 0.743786 0.999021 0.58934 0.74247 0.56081 0.9308955 0.342239 0.237954  67667.16
+6      0.785784 0.928678 0.544560 0.577339 0.785401 0.999996 0.53046 0.58937 0.56081 0.9931430 0.279556 0.674005  67537.73
+7      0.299102 0.865911 0.244390 0.281143 0.532941 1.000000 0.36636 0.24180 0.68997 0.9894790 0.157095 0.285224  59826.79
+8      0.620805 0.901670 0.201989 0.281143 0.519747 0.999971 0.28768 0.31039 0.54983 0.9381285 0.151871 0.799338  57224.55
+9      0.785784 0.819748 0.208655 0.281143 0.885839 1.000000 0.30260 0.81569 0.71323 0.9954675 0.437003 0.384334  54190.39
+10     0.422197 0.944251 0.373816 0.281143 0.314937 1.000000 0.31796 0.40657 0.66076 0.9976230 0.093921 0.386355  51383.04
+11     0.785784 0.884994 0.554673 0.560299 0.746021 0.999827 0.57187 0.58937 0.56081 0.9652910 0.279556 0.724137  51127.50
+12     0.737068 0.527991 0.483397 0.560299 0.743786 0.999021 0.58934 0.74247 0.56081 0.9308955 0.342239 0.211247  49549.85
+13     0.555782 0.484196 0.189137 0.281143 0.932908 1.000000 0.28280 0.71078 0.61984 0.9612875 0.363547 0.216003  49249.07
+14     0.785784 0.884994 0.393132 0.364322 0.781008 0.955590 0.77250 0.57300 0.77245 0.9467560 0.617748 0.233194  45982.60
+15     0.785784 0.884994 0.524230 0.659095 0.461911 1.000000 0.67787 0.36674 0.69471 0.9954675 0.140236 0.811467  45269.29
+16     0.737068 0.440642 0.244390 0.288217 0.868102 0.932247 0.47669 0.45391 0.58796 0.7943060 0.818567 0.283646  44035.07
+17     0.785784 0.571360 0.514031 0.568839 0.873525 0.973566 0.61229 0.68237 0.69940 0.8671010 0.780172 0.804596  44001.42
+18     0.620805 0.527991 0.483397 0.560299 0.710207 0.997909 0.48266 0.74247 0.56081 0.9308955 0.342239 0.799077  43707.25
+19     0.827585 0.884994 0.393132 0.364322 0.781008 0.965948 0.77250 0.57300 0.77245 0.9467560 0.617748 0.765535  43704.48
+20     0.737068 0.440642 0.473202 0.439304 0.911994 0.980539 0.34445 0.58325 0.80569 0.9490405 0.822493 0.293701  42290.84
+21     0.737068 0.792378 0.412789 0.295397 0.577347 0.998283 0.33906 0.56062 0.68039 0.9467560 0.279556 0.384273  41596.91
+22     0.785784 0.440642 0.473202 0.439304 0.919433 0.981850 0.48266 0.81945 0.80914 0.9490405 0.842905 0.793321  41148.69
+23     0.422197 0.654310 0.195483 0.281143 0.520041 0.999998 0.27320 0.41471 0.56627 0.9722610 0.151871 0.384281  40017.17
+24     0.681761 0.745801 0.195483 0.281143 0.551912 1.000000 0.27797 0.41675 0.57716 0.9812525 0.187450 0.385747  39502.24
+25     0.827585 0.819748 0.208655 0.281143 0.898390 0.069503 0.30768 0.88599 0.71323 0.9954675 0.437003 0.238018  38504.79
+26     0.620805 0.527991 0.483397 0.560299 0.592195 0.986386 0.60087 0.50840 0.56081 0.9308955 0.250991 0.211037  37724.85
+27     0.785784 0.909173 0.222469 0.281143 0.608558 0.873664 0.36083 0.50420 0.51666 0.8688455 0.261150 0.387832  37392.08
+28     0.681761 0.944251 0.383428 0.281143 0.558301 0.938107 0.75525 0.53565 0.50556 0.7917735 0.336261 0.836989  37379.61
+29     0.827585 0.762059 0.275813 0.491114 0.740410 0.849466 0.30768 0.42289 0.78770 0.7917735 0.669664 0.824621  37313.28
+30     0.555782 0.934270 0.208655 0.288217 0.490651 1.000000 0.25461 0.35511 0.86607 0.9986130 0.081162 0.362816  37167.06
+31     0.827585 0.944251 0.483397 0.619060 0.542295 0.908791 0.57187 0.47272 0.46672 0.8635050 0.268941 0.715121  36363.29
+32     0.785784 0.336963 0.844287 0.397069 0.969776 0.730282 0.47669 0.97621 0.83510 0.9427385 0.915805 0.280448  36192.61
+33     0.737068 0.944251 0.373816 0.281143 0.693725 0.999783 0.74629 0.44767 0.52221 0.9881140 0.238667 0.305232  36112.92
+34     0.681761 0.944251 0.252014 0.281143 0.532648 0.997847 0.31280 0.42289 0.60401 0.9603275 0.189489 0.299030  35874.88
+35     0.785784 0.336963 0.844287 0.397069 0.968258 0.711823 0.58934 0.97621 0.83510 0.9427385 0.903784 0.708288  34936.00
+36     0.827585 0.806430 0.336414 0.568839 0.545505 0.955169 0.60087 0.42289 0.52221 0.8973980 0.231475 0.724461  34859.23
+37     0.555782 0.527991 0.483397 0.560299 0.592195 0.983464 0.60087 0.50840 0.56081 0.9308955 0.250991 0.362824  34564.41
+38     0.827585 0.692825 0.564742 0.643315 0.659789 0.626062 0.70342 0.45391 0.64056 0.6988500 0.666708 0.283100  34198.72
+39     0.737068 0.944251 0.383428 0.356315 0.346681 0.998101 0.32843 0.16265 0.42284 0.9338135 0.181433 0.421616  34081.09
+40     0.827585 0.201309 0.849584 0.871010 0.971583 0.818007 0.76827 0.98260 0.80914 0.8915760 0.886284 0.602246  33605.42
+41     0.827585 0.944251 0.483397 0.619060 0.599275 0.918145 0.39455 0.55648 0.56627 0.8160660 0.336261 0.709559  33411.05
+42     0.737068 0.844219 0.284048 0.380560 0.589920 0.787832 0.61795 0.46017 0.52221 0.6722840 0.601887 0.600116  33262.39
+43     0.785784 0.884994 0.554673 0.560299 0.746021 0.999827 0.57187 0.58937 0.56081 0.9652910 0.279556 0.314231  33071.97
+44     0.555782 0.893620 0.201989 0.281143 0.887141 0.999999 0.31796 0.67504 0.65072 0.9946340 0.348267 0.227748  33026.25
+45     0.681761 0.909173 0.383428 0.577339 0.647543 0.999095 0.50060 0.28066 0.43919 0.9897950 0.169853 0.602705  32482.93
+46     0.681761 0.527991 0.483397 0.560299 0.869175 0.960541 0.61229 0.68237 0.68039 0.9308955 0.780172 0.800454  32447.93
+47     0.785784 0.944251 0.930174 0.281143 0.534404 0.908134 0.70342 0.39849 0.57172 0.9944670 0.246011 0.599407  32099.24
+48     0.785784 0.944251 0.383428 0.356315 0.781008 0.955590 0.77250 0.57300 0.77245 0.7917735 0.617748 0.229429  31888.04
+49     0.358319 0.549770 0.402922 0.281143 0.482425 0.992804 0.37194 0.37065 0.48334 0.8381030 0.158869 0.357368  31710.15
+50     0.785784 0.806430 0.336414 0.704268 0.545505 0.945407 0.60087 0.42289 0.52221 0.8973980 0.231475 0.812250  31657.86
+51     0.785784 0.440642 0.821574 0.372405 0.867562 0.786344 0.81542 0.58325 0.80569 0.9490405 0.866072 0.723813  31302.18
+52     0.620805 0.440642 0.821574 0.372405 0.910664 0.786426 0.81900 0.58325 0.80569 0.9393135 0.867611 0.381729  31090.55
+53     0.199504 0.844219 0.345595 0.302678 0.282443 0.987662 0.24123 0.16380 0.46672 0.7814170 0.169853 0.384319  30775.86
+54     0.488789 0.527991 0.393132 0.534484 0.704364 0.586624 0.34987 0.44767 0.53881 0.9603275 0.654753 0.709786  30532.31
+55     0.620805 0.944251 0.259793 0.281143 0.506821 0.960354 0.44697 0.43111 0.43919 0.9467560 0.310026 0.811219  30499.35
+56     0.827585 0.571360 0.327354 0.718531 0.668446 0.573401 0.39455 0.44145 0.78770 0.6374330 0.746494 0.772299  30444.74
+57     0.827585 0.673861 0.244390 0.610834 0.510054 0.776396 0.57771 0.43111 0.34424 0.5559575 0.293178 0.211091  30435.39
+58     0.785784 0.692825 0.473202 0.551723 0.535867 0.914358 0.45883 0.52309 0.52221 0.6988785 0.339244 0.361221  30377.23
+59     0.737068 0.571360 0.514031 0.568839 0.873525 0.970917 0.61229 0.68237 0.69940 0.8671010 0.780172 0.236370  30376.89
+60     0.620805 0.692825 0.284048 0.281143 0.519747 0.888145 0.75080 0.53565 0.50556 0.5635625 0.351299 0.603791  30318.07
+61     0.681761 0.944251 0.383428 0.356315 0.346681 0.997306 0.32843 0.16265 0.42284 0.9338135 0.181433 0.404525  30194.39
+62     0.785784 0.692825 0.284048 0.281143 0.401120 0.768679 0.42345 0.43111 0.36974 0.5635625 0.256038 0.812507  30077.66
+63     0.737068 0.806430 0.236924 0.281143 0.753304 0.853337 0.45289 0.41471 0.58796 0.7787705 0.611431 0.771860  30054.77
+64     0.620805 0.215772 0.432728 0.568839 0.607717 0.445466 0.41182 0.58325 0.57172 0.4559995 0.743962 0.797924  29826.25
+65     0.620805 0.336963 0.738221 0.281143 0.910664 0.786426 0.81900 0.58325 0.80569 0.8272490 0.867611 0.603721  29814.55
+66     0.737068 0.728827 0.229617 0.281143 0.679813 0.787006 0.38318 0.41471 0.58796 0.7164215 0.611431 0.238089  29769.75
+67     0.681761 0.944251 0.383428 0.281143 0.487419 0.924233 0.27320 0.53565 0.50556 0.7917735 0.336261 0.725928  29733.72
+68     0.620805 0.613660 0.364302 0.348388 0.818231 0.882125 0.53046 0.57300 0.68520 0.8915760 0.706822 0.214557  29726.86
+69     0.785784 0.654310 0.259793 0.465115 0.924508 0.899606 0.30260 0.53356 0.65072 0.9236185 0.816578 0.818050  29622.43
+70     0.785784 0.692825 0.473202 0.551723 0.580500 0.931809 0.51256 0.52309 0.52221 0.6988785 0.339244 0.283528  29604.36
+71     0.785784 0.944251 0.292430 0.666857 0.358493 0.498426 0.49462 0.32496 0.39599 0.8042045 0.345247 0.823337  29601.81
+72     0.620805 0.263570 0.201989 0.281143 0.798004 0.908832 0.31280 0.45391 0.57716 0.6823990 0.826353 0.702254  29491.55
+73     0.737068 0.806430 0.236924 0.281143 0.753304 0.853337 0.45289 0.41471 0.58796 0.7787705 0.611431 0.294320  29039.85
+74     0.555782 0.246911 0.661283 0.281143 0.925649 0.604335 0.96843 0.93383 0.83510 0.7760960 0.866072 0.744206  29029.74
+75     0.737068 0.819748 0.208655 0.281143 0.573036 0.724212 0.34987 0.46226 0.41204 0.7840405 0.466716 0.765173  28670.66
+76     0.681761 0.944251 0.383428 0.281143 0.461326 0.853645 0.73247 0.43111 0.36974 0.7917735 0.231475 0.798932  28562.78
+ [ reached getOption("max.print") -- omitted 188242 rows ]
