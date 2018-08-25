@@ -1,0 +1,7 @@
+1. Generate featureset dictionary out of train and test
+2. Clean the featureset dictionary
+3. Add features column in train adn test dataset
+4. Create mapping of listing id and features
+5. Modify features in mapping dataset so that wo words that mean in same should be considered as one
+6. Assign 1 and 0 to the features
+
