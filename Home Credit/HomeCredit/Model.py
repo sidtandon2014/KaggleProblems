@@ -71,12 +71,21 @@ class Models:
         data_test_x = np.array(test)
         
         skf = StratifiedKFold(n_splits=2)
+        roc = 0
         for train_index, test_index in skf.split(data_x, data_y):
             train_x, test_x = data_x[train_index], data_x[test_index]
             train_y, test_y = data_y[train_index], data_y[test_index]
         
-            model,result = self.lightgbm(train_x,train_y,test_x,test_y)
-            print("ROC",ROC(test_y,result))
+            model_tmp,result = self.lightgbm(train_x,train_y,test_x,test_y)
+            roc_tmp = ROC(test_y,result)
+            print("ROC",roc_tmp)
+            if roc_tmp > roc:
+                roc= roc_tmp
+                model = model_tmp
+                
+        results = model.predict_proba(data_test_x)
+        results = results[:,1]
+        return model, results
         
     def lightgbm(self,train_x,train_y,test_x,test_y,algorithm = "gbdt"):
         import lightgbm
@@ -85,23 +94,11 @@ class Models:
         #for leaves in range(2,50):
         
         model = lightgbm.LGBMClassifier(
-                                    #n_estimators=100, silent=True, class_weight="balanced"
-                                    #,num_leaves = 45
-                                    #,boosting_type=algorithm
-                                    #nthread=4,
-            n_estimators=10000,
-            learning_rate=0.02,
-            class_weight="balanced",
-            num_leaves=34,
-            colsample_bytree=0.9497036,
-            subsample=0.8715623,
-            max_depth=8,
-            reg_alpha=0.041545473,
-            reg_lambda=0.0735294,
-            min_split_gain=0.0222415,
-            min_child_weight=39.3259775,
-            silent=-1,
-            verbose=-1             )
+                                    n_estimators=100, silent=True, class_weight="balanced"
+                                    ,num_leaves = 45
+                                    ,boosting_type=algorithm
+                                    ,nthread=4
+                        )
         
         if test_y == "":
             model.fit(train_x,train_y,eval_set=[(train_x, train_y)],eval_metric = 'auc')
@@ -336,7 +333,12 @@ featureSet = readData.getData("dbo.FeatureSet")
 featureSet = models.addFeatures(featureSet)
 scalingColumns = models.getScalingColumns(featureSet)
 featureSet, _ = models.convertCategoricalVaribalesToOneHotEncoding(featureSet)
+featureSet = featureSet.merge(Bureau_tmp, on = "SK_ID_CURR", how = "left")
+featureSet = featureSet.merge(CreditCardBalance_tmp, on = "SK_ID_CURR", how = "left")
+featureSet = featureSet.merge(POSCashBalance_tmp, on = "SK_ID_CURR", how = "left")
+featureSet = featureSet.merge(PreviousApplication_tmp, on = "SK_ID_CURR", how = "left")
 
+featureSet.fillna(0,inplace = True)
 train = featureSet[featureSet["TARGET"] != -1].reset_index(drop = True)
 test = featureSet[featureSet["TARGET"] == -1].reset_index(drop = True)
 

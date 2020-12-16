@@ -66,3 +66,6 @@ class ReadData:
         result = model.predict(test)
         return result,model
         
+if __name__ == "__main__":
+    readData = ReadData(".","test","sa","Pass@123")
+    featureSet = readData.getData("BooleanTest")        

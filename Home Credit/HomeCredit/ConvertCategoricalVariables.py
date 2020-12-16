@@ -3,11 +3,11 @@ import pandas as pd
 readData = ReadData(".","HomeCredit","sa","Pass@123")        
 
 Bureau = readData.getData("[Final].[Bureau]")
-BureauBalance = readData.getData("[Final].[BureauBalance]")
 CreditCardBalance = readData.getData("[Final].[CreditCardBalance]")
-InstallmentsPayments = readData.getData("[Final].[InstallmentsPayments]")
 POSCashBalance = readData.getData("[Final].[POSCashBalance]")
+pa_Cols = ["SK_ID_CURR","NAME_CONTRACT_TYPE","FLAG_LAST_APPL_PER_CONTRACT","NAME_CASH_LOAN_PURPOSE","NAME_CONTRACT_STATUS","CODE_REJECT_REASON"]
 PreviousApplication = readData.getData("[Final].[PreviousApplication]")
+
 
 def convertCategoricalVaribalesToOneHotEncoding(data):
     cat_vars = []
@@ -40,12 +40,11 @@ Bureau_tmp = getCategoricalAggregates(Bureau_tmp,cols)
 CreditCardBalance_tmp,cols = convertCategoricalVaribalesToOneHotEncoding(CreditCardBalance)
 CreditCardBalance_tmp = getCategoricalAggregates(CreditCardBalance_tmp,cols)
 
-InstallmentsPayments_tmp,cols = convertCategoricalVaribalesToOneHotEncoding(InstallmentsPayments)
-InstallmentsPayments_tmp = getCategoricalAggregates(InstallmentsPayments_tmp,cols)
-
 POSCashBalance_tmp,cols = convertCategoricalVaribalesToOneHotEncoding(POSCashBalance)
 POSCashBalance_tmp = getCategoricalAggregates(POSCashBalance_tmp,cols)
 
-PreviousApplication_tmp,cols = convertCategoricalVaribalesToOneHotEncoding(PreviousApplication)
+PreviousApplication = PreviousApplication[pa_Cols]
+PreviousApplication_tmp,cols = convertCategoricalVaribalesToOneHotEncoding(PreviousApplication)          
 PreviousApplication_tmp = getCategoricalAggregates(PreviousApplication_tmp,cols)
+
 
